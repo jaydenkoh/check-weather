@@ -73,12 +73,12 @@ h1 {
 }
 
 .container-fluid {
-    background: linear-gradient(270deg, #22d7c1, #222ed7);
+    background: linear-gradient(270deg, #1de1da, #e11dae);
     background-size: 400% 400%;
 
-    -webkit-animation: AnimationName 10s ease infinite;
-    -moz-animation: AnimationName 10s ease infinite;
-    animation: AnimationName 10s ease infinite;
+    -webkit-animation: AnimationName 0s ease infinite;
+    -moz-animation: AnimationName 0s ease infinite;
+    animation: AnimationName 0s ease infinite;
     z-index: 1;
     text-align: center;
 }
@@ -208,19 +208,19 @@ h1 {
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
 }
 
 @-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
 }
 
 @keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
+    0%{background-position:0% 52%}
+    50%{background-position:100% 49%}
+    100%{background-position:0% 52%}
 }
