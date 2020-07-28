@@ -73,9 +73,13 @@ h1 {
 }
 
 .container-fluid {
-    background: rgba(0, 0, 0, 0.4);
+    background: linear-gradient(270deg, #22d7c1, #222ed7);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
     z-index: 1;
-    color: white;
     text-align: center;
 }
 
